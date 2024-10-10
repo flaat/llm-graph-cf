@@ -78,3 +78,12 @@ python main.py
 ```bash
 python main.py --parameters '0.7' --temperature 0.5 --top_p 0.9 --dataset 'pubmed' --max_tokens 1024 --repetition_penalty 1.1 --explainer 'your_explainer'
 ```
+You can run the experiments using the experiments script. 
+```bash
+bash experiments.sh
+```
+
+To evaluate the results type:
+```bash
+python src/evaluation.py
+```
