@@ -4,9 +4,6 @@ import ast
 from collections import Counter
 import matplotlib.pyplot as plt
 import networkx as nx 
-
-
-
 import re
 
 def extract_factual_and_counterfactual_info(phrase):
@@ -32,7 +29,7 @@ def extract_factual_and_counterfactual_info(phrase):
 
 
 
-def main(parameters: str, dataset: str, folder: str):
+def evaluate(parameters: str, dataset: str, folder: str):
     
     
     # Define file paths
@@ -297,4 +294,4 @@ if __name__ == "__main__":
     
     for parameters in ["0.5", "1.5", "3", "7", "14"]:
     
-        main(parameters=parameters, dataset="cora", folder="cf-gnnfeatures")
+        evaluate(parameters=parameters, dataset="cora", folder="cf-gnnfeatures")
