@@ -1,0 +1,4 @@
+{
+    "36": "The target node, node 2, was originally classified as 'Theory', but after applying the counterfactual explanation, it was reclassified as 'Case_Based'. This change occurred because the counterfactual modification involved changing the node's features to those of a 'Case_Based' node, which is a different class from 'Theory'.",
+    "65": "The counterfactual explanation shows that changing the features of the target node (node 1) from being classified as 'Theory' to 'Case_Based' involves modifying the presence of specific words in the node's feature vector. The key changes include the removal of 'satisfact', 'draft', 'residu', 'conserv', 'shadow', 'gateway', 'diffus', and 'imper', while keeping 'haskel'. These changes suggest that the node's classification was influenced by the presence of these specific words, and removing them would likely result in a different classification."
+}

@@ -1,0 +1,14 @@
+{
+    "8": "",
+    "9": "",
+    "16": "The target node (ID 3) was originally classified as Genetic_Algorithms based on its features and connections. However, when we remove the features \"almost\", \"adversari\", \"apprentic\", \"multiprocess\", and \"histori\" and keep only \"reflect\", \"choic\", \"warp\", and \"pack\", the node is reclassified as Neural_Networks. This change in classification is influenced by the removal of features that were specific to Genetic_Algorithms and the retention of features more commonly associated with Neural_Networks.",
+    "19": "The target node (ID 8) was originally classified as Genetic_Algorithms based on its features and connections with nodes 1 and 15. In the counterfactual scenario, the node is now classified as Reinforcement_Learning. This change is primarily driven by the shift in its neighbors from nodes 1 and 15 (which were associated with Genetic_Algorithms) to nodes 10 and 19 (which are associated with Reinforcement_Learning). The new set of features, which include terms like \"recognit\", \"reason\", \"via\", \"access\", \"traffic\", etc., align more closely with the characteristics of Reinforcement_Learning, leading to the change in classification.",
+    "30": "",
+    "36": "The target node (ID: 2) was originally classified as \"Theory\" in the factual scenario. In the counterfactual scenario, the same node is reclassified as \"Case_Based\". This change in classification is due to the removal of all connections to other nodes in the graph. Without any connections, the model may rely more heavily on the intrinsic features of the node itself, which align more closely with the characteristics of \"Case_Based\" publications.",
+    "40": "",
+    "42": "",
+    "46": "",
+    "59": "In the factual scenario, the target node (Node 12) is classified as Probabilistic_Methods due to features like \"model,\" \"evalu,\" \"genet,\" and \"modul.\" In the counterfactual scenario, the target node is reclassified as Case_Based because its features are shifted to include terms like \"control,\" \"graph,\" and \"reason,\" which are more aligned with case-based reasoning.",
+    "60": "",
+    "65": ""
+}
