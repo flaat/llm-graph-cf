@@ -87,3 +87,7 @@ To evaluate the results type:
 ```bash
 python src/evaluation.py
 ```
+
+## Data Folder
+The folder data contains data coming from CF-GNNExplainer and CF-GNNFeatures explainers using the graph incident format. The explainers are **NOT** included in this repo!
+
