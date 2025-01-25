@@ -1,16 +1,21 @@
 #!/bin/bash
 
-# Array of parameter values to use in the Python script
-parameter_values=(0.5 1.5 3 7 14)
+# Additional parameters for the new script
+models=("mistral_7B" "llama_3B" "llama_8B" "smollm2_2B" "phi_4B" )
+explainers=("gnnexplainer")
+max_model_lens=(16000 16000 16000 8192 16000)
 
-# Loop through each parameter value
-for value in "${parameter_values[@]}"
+# Loop through each model and explainer
+for i in "${!models[@]}"
 do
-  echo "Running main.py with parameters=$value"
-  # Run the Python script with the current parameter value
-  python3 main.py --parameters "$value"  --explainer cf-gnn --dataset citeseer
-  wait
-  # Wait for the Python script to finish before continuing to the next iteration
+  for explainer in "${explainers[@]}"
+  do
+    echo "Running main.py with model=${models[$i]}, explainer=$explainer, max_model_len=${max_model_lens[$i]}"
+    # Run the Python script with the current model, explainer, and max_model_len
+    python3 main.py --model_name "${models[$i]}" --dataset aids --explainer "$explainer" --max_model_len "${max_model_lens[$i]}" --max_tokens 4096
+    wait
+    # Wait for the Python script to finish before continuing to the next iteration
+  done
 done
 
 echo "All runs completed."

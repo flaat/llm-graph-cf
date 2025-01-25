@@ -1,13 +1,13 @@
 import argparse
-from src.llms import get_eplanations
+from src.llms_m import get_explanations_mistral_vllm
 
 def main():
     parser = argparse.ArgumentParser(description="Process command-line parameters.")
 
     parser.add_argument(
-        '--parameters',
+        '--model_name',
         type=str,
-        default='0.5',
+        default='phi_4B',
         help='Parameters value (default: 0.5)'
     )
     parser.add_argument(
@@ -47,11 +47,17 @@ def main():
         default="cf-gnnfeatures",
         help='Explanation'
     )
-
+    
+    parser.add_argument(
+        '--max_model_len',
+        type=int,
+        default="16000",
+        help='model len'
+    )
     args = parser.parse_args()
 
     # Use the parsed arguments as needed
-    print(f"Parameters: {args.parameters}")
+    print(f"Model name: {args.model_name}")
     print(f"Temperature: {args.temperature}")
     print(f"Top-p: {args.top_p}")
     print(f"Dataset: {args.dataset}")
@@ -59,13 +65,14 @@ def main():
     print(f"Repetition penalty: {args.repetition_penalty}")
     
     
-    get_eplanations(parameters=args.parameters,
+    get_explanations_mistral_vllm(model_name=args.model_name,
                     temperature=args.temperature,
                     top_p=args.top_p,
                     dataset=args.dataset,
                     max_tokens=args.max_tokens,
                     repetition_penalty=args.repetition_penalty,
-                    explainer=args.explainer)
+                    explainer=args.explainer,
+                    max_model_len=args.max_model_len)
 
 if __name__ == "__main__":
     main()

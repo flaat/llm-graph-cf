@@ -1,0 +1,5579 @@
+{
+    "0": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+        ],
+        "Edge_differences": [
+            [
+                25,
+                24
+            ],
+            [
+                29,
+                28
+            ],
+            [
+                21,
+                32
+            ],
+            [
+                28,
+                29
+            ],
+            [
+                38,
+                33
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "1": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+        ],
+        "Edge_differences": [
+            [
+                15,
+                16
+            ],
+            [
+                12,
+                17
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                5,
+                4
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "2": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58
+        ],
+        "Edge_differences": [
+            [
+                32,
+                31
+            ],
+            [
+                46,
+                49
+            ],
+            [
+                12,
+                13
+            ],
+            [
+                35,
+                45
+            ],
+            [
+                12,
+                54
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "3": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+        ],
+        "Edge_differences": [
+            [
+                6,
+                7
+            ],
+            [
+                7,
+                6
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                24,
+                23
+            ],
+            [
+                6,
+                11
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "4": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60
+        ],
+        "Edge_differences": [
+            [
+                11,
+                12
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                4,
+                12
+            ],
+            [
+                5,
+                7
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "5": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+        ],
+        "Edge_differences": [
+            [
+                0,
+                1
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                22,
+                21
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                9,
+                2
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "6": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "Edge_differences": [
+            [
+                0,
+                1
+            ],
+            [
+                7,
+                4
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                7,
+                8
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "7": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+        ],
+        "Edge_differences": [
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                12,
+                5
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "8": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "Edge_differences": [
+            [
+                4,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                5,
+                7
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "9": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "Edge_differences": [
+            [
+                1,
+                2
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "10": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+        ],
+        "Edge_differences": [
+            [
+                25,
+                23
+            ],
+            [
+                11,
+                16
+            ],
+            [
+                26,
+                25
+            ],
+            [
+                23,
+                21
+            ],
+            [
+                2,
+                10
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "11": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+        ],
+        "Edge_differences": [
+            [
+                9,
+                10
+            ],
+            [
+                14,
+                6
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                11,
+                10
+            ],
+            [
+                4,
+                12
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "12": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "a",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "Edge_differences": [
+            [
+                4,
+                5
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                0,
+                6
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "13": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+        ],
+        "Edge_differences": [
+            [
+                15,
+                16
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                5,
+                4
+            ],
+            [
+                20,
+                15
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "14": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "a",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "Edge_differences": [
+            [
+                1,
+                2
+            ],
+            [
+                7,
+                8
+            ],
+            [
+                9,
+                7
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "15": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "a",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "Edge_differences": [
+            [
+                2,
+                3
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "16": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+        ],
+        "Edge_differences": [
+            [
+                32,
+                31
+            ],
+            [
+                27,
+                32
+            ],
+            [
+                22,
+                21
+            ],
+            [
+                19,
+                20
+            ],
+            [
+                28,
+                29
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "17": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+        ],
+        "Edge_differences": [
+            [
+                2,
+                3
+            ],
+            [
+                20,
+                0
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                5,
+                4
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "18": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "a",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "Edge_differences": [
+            [
+                0,
+                1
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "19": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+        ],
+        "Edge_differences": [
+            [
+                2,
+                3
+            ],
+            [
+                13,
+                14
+            ],
+            [
+                14,
+                13
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                4,
+                3
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "20": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "Edge_differences": [
+            [
+                4,
+                5
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                5,
+                4
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "21": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "Edge_differences": [
+            [
+                20,
+                19
+            ],
+            [
+                8,
+                7
+            ],
+            [
+                7,
+                10
+            ],
+            [
+                30,
+                31
+            ],
+            [
+                15,
+                20
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "22": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "a",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "Edge_differences": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "23": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+        ],
+        "Edge_differences": [
+            [
+                11,
+                12
+            ],
+            [
+                23,
+                41
+            ],
+            [
+                15,
+                14
+            ],
+            [
+                17,
+                18
+            ],
+            [
+                35,
+                34
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "24": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72
+        ],
+        "Edge_differences": [
+            [
+                60,
+                63
+            ],
+            [
+                23,
+                22
+            ],
+            [
+                61,
+                60
+            ],
+            [
+                62,
+                60
+            ],
+            [
+                60,
+                62
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "25": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "a",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "Edge_differences": [
+            [
+                5,
+                8
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                10,
+                7
+            ],
+            [
+                8,
+                5
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "26": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+        ],
+        "Edge_differences": [
+            [
+                9,
+                6
+            ],
+            [
+                10,
+                11
+            ],
+            [
+                17,
+                5
+            ],
+            [
+                10,
+                4
+            ],
+            [
+                5,
+                4
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "27": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+        ],
+        "Edge_differences": [
+            [
+                9,
+                10
+            ],
+            [
+                1,
+                10
+            ],
+            [
+                18,
+                15
+            ],
+            [
+                2,
+                15
+            ],
+            [
+                10,
+                1
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "28": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "Edge_differences": [
+            [
+                1,
+                2
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                8,
+                7
+            ],
+            [
+                5,
+                4
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "29": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+        ],
+        "Edge_differences": [
+            [
+                21,
+                20
+            ],
+            [
+                21,
+                31
+            ],
+            [
+                33,
+                31
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                31,
+                21
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "30": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+        ],
+        "Edge_differences": [
+            [
+                5,
+                0
+            ],
+            [
+                1,
+                10
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                10,
+                1
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "31": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "a",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "Edge_differences": [
+            [
+                0,
+                1
+            ],
+            [
+                7,
+                6
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                4,
+                9
+            ],
+            [
+                8,
+                10
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "32": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+        ],
+        "Edge_differences": [
+            [
+                5,
+                0
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                13,
+                6
+            ],
+            [
+                7,
+                12
+            ],
+            [
+                6,
+                3
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "33": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+        ],
+        "Edge_differences": [
+            [
+                4,
+                10
+            ],
+            [
+                14,
+                13
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                13,
+                10
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "34": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53
+        ],
+        "Edge_differences": [
+            [
+                0,
+                40
+            ],
+            [
+                42,
+                40
+            ],
+            [
+                40,
+                42
+            ],
+            [
+                43,
+                44
+            ],
+            [
+                16,
+                11
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "35": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+        ],
+        "Edge_differences": [
+            [
+                4,
+                5
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                5,
+                4
+            ],
+            [
+                1,
+                9
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "36": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51
+        ],
+        "Edge_differences": [
+            [
+                46,
+                48
+            ],
+            [
+                45,
+                46
+            ],
+            [
+                37,
+                35
+            ],
+            [
+                32,
+                30
+            ],
+            [
+                30,
+                32
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "37": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "Edge_differences": [
+            [
+                2,
+                3
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                7,
+                8
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "38": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "a",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "Edge_differences": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                3,
+                9
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                8,
+                2
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "39": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+        ],
+        "Edge_differences": [
+            [
+                0,
+                1
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "40": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+        ],
+        "Edge_differences": [
+            [
+                2,
+                14
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                10,
+                4
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "41": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76
+        ],
+        "Edge_differences": [
+            [
+                27,
+                31
+            ],
+            [
+                26,
+                25
+            ],
+            [
+                31,
+                27
+            ],
+            [
+                27,
+                25
+            ],
+            [
+                25,
+                26
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "42": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+        ],
+        "Edge_differences": [
+            [
+                13,
+                7
+            ],
+            [
+                11,
+                8
+            ],
+            [
+                32,
+                33
+            ],
+            [
+                8,
+                11
+            ],
+            [
+                31,
+                32
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "43": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+        ],
+        "Edge_differences": [
+            [
+                4,
+                5
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                10,
+                7
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "44": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+        ],
+        "Edge_differences": [
+            [
+                22,
+                21
+            ],
+            [
+                10,
+                9
+            ],
+            [
+                5,
+                4
+            ],
+            [
+                21,
+                17
+            ],
+            [
+                9,
+                4
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "45": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66
+        ],
+        "Edge_differences": [
+            [
+                24,
+                25
+            ],
+            [
+                24,
+                27
+            ],
+            [
+                25,
+                24
+            ],
+            [
+                52,
+                39
+            ],
+            [
+                24,
+                26
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "46": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "Edge_differences": [
+            [
+                1,
+                7
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                7,
+                6
+            ],
+            [
+                6,
+                8
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "47": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57
+        ],
+        "Edge_differences": [
+            [
+                20,
+                24
+            ],
+            [
+                24,
+                23
+            ],
+            [
+                18,
+                20
+            ],
+            [
+                24,
+                20
+            ],
+            [
+                12,
+                13
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "48": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+        ],
+        "Edge_differences": [
+            [
+                12,
+                11
+            ],
+            [
+                23,
+                15
+            ],
+            [
+                8,
+                7
+            ],
+            [
+                30,
+                31
+            ],
+            [
+                6,
+                3
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "49": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+        ],
+        "Edge_differences": [
+            [
+                4,
+                5
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                4,
+                11
+            ],
+            [
+                12,
+                11
+            ],
+            [
+                11,
+                4
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "50": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+        ],
+        "Edge_differences": [
+            [
+                7,
+                2
+            ],
+            [
+                10,
+                3
+            ],
+            [
+                1,
+                6
+            ],
+            [
+                9,
+                2
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "51": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+        ],
+        "Edge_differences": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                13,
+                1
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "52": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58
+        ],
+        "Edge_differences": [
+            [
+                23,
+                22
+            ],
+            [
+                31,
+                30
+            ],
+            [
+                29,
+                28
+            ],
+            [
+                35,
+                36
+            ],
+            [
+                28,
+                27
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "53": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+        ],
+        "Edge_differences": [
+            [
+                0,
+                1
+            ],
+            [
+                14,
+                13
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                6
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "54": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+        ],
+        "Edge_differences": [
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                1,
+                15
+            ],
+            [
+                13,
+                7
+            ],
+            [
+                0,
+                5
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "55": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+        ],
+        "Edge_differences": [
+            [
+                1,
+                37
+            ],
+            [
+                41,
+                4
+            ],
+            [
+                11,
+                8
+            ],
+            [
+                37,
+                1
+            ],
+            [
+                5,
+                18
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "56": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+        ],
+        "Edge_differences": [
+            [
+                13,
+                14
+            ],
+            [
+                26,
+                19
+            ],
+            [
+                17,
+                16
+            ],
+            [
+                12,
+                11
+            ],
+            [
+                35,
+                34
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "57": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+        ],
+        "Edge_differences": [
+            [
+                7,
+                4
+            ],
+            [
+                11,
+                7
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                7,
+                11
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "58": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+        ],
+        "Edge_differences": [
+            [
+                4,
+                5
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                37,
+                38
+            ],
+            [
+                37,
+                46
+            ],
+            [
+                7,
+                8
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "59": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "a",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+        ],
+        "Edge_differences": [
+            [
+                0,
+                2
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "60": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "Edge_differences": [
+            [
+                5,
+                1
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                9,
+                2
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "61": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67
+        ],
+        "Edge_differences": [
+            [
+                52,
+                50
+            ],
+            [
+                46,
+                48
+            ],
+            [
+                50,
+                52
+            ],
+            [
+                48,
+                46
+            ],
+            [
+                50,
+                48
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "62": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+        ],
+        "Edge_differences": [
+            [
+                34,
+                49
+            ],
+            [
+                48,
+                10
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                27,
+                28
+            ],
+            [
+                38,
+                27
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "63": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+        ],
+        "Edge_differences": [
+            [
+                8,
+                9
+            ],
+            [
+                13,
+                17
+            ],
+            [
+                7,
+                11
+            ],
+            [
+                15,
+                7
+            ],
+            [
+                7,
+                8
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "64": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+        ],
+        "Edge_differences": [
+            [
+                11,
+                12
+            ],
+            [
+                14,
+                15
+            ],
+            [
+                13,
+                12
+            ],
+            [
+                12,
+                13
+            ],
+            [
+                18,
+                19
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "65": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "a",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "Edge_differences": [
+            [
+                9,
+                10
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                8,
+                7
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "66": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "Edge_differences": [
+            [
+                9,
+                10
+            ],
+            [
+                26,
+                24
+            ],
+            [
+                37,
+                36
+            ],
+            [
+                17,
+                16
+            ],
+            [
+                22,
+                23
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "67": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+        ],
+        "Edge_differences": [
+            [
+                9,
+                5
+            ],
+            [
+                9,
+                13
+            ],
+            [
+                12,
+                15
+            ],
+            [
+                16,
+                13
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "68": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+        ],
+        "Edge_differences": [
+            [
+                11,
+                12
+            ],
+            [
+                15,
+                11
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                11,
+                15
+            ],
+            [
+                4,
+                3
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "69": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "Edge_differences": [
+            [
+                5,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                5,
+                4
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "70": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58
+        ],
+        "Edge_differences": [
+            [
+                10,
+                5
+            ],
+            [
+                5,
+                10
+            ],
+            [
+                37,
+                34
+            ],
+            [
+                8,
+                7
+            ],
+            [
+                35,
+                32
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "71": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+        ],
+        "Edge_differences": [
+            [
+                21,
+                20
+            ],
+            [
+                18,
+                17
+            ],
+            [
+                20,
+                19
+            ],
+            [
+                17,
+                18
+            ],
+            [
+                25,
+                26
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "72": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+        ],
+        "Edge_differences": [
+            [
+                4,
+                5
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                9,
+                14
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "73": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53
+        ],
+        "Edge_differences": [
+            [
+                15,
+                16
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                15,
+                17
+            ],
+            [
+                17,
+                18
+            ],
+            [
+                21,
+                22
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "74": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56
+        ],
+        "Edge_differences": [
+            [
+                47,
+                43
+            ],
+            [
+                51,
+                52
+            ],
+            [
+                40,
+                41
+            ],
+            [
+                45,
+                51
+            ],
+            [
+                46,
+                45
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "75": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66
+        ],
+        "Edge_differences": [
+            [
+                29,
+                28
+            ],
+            [
+                28,
+                31
+            ],
+            [
+                28,
+                29
+            ],
+            [
+                17,
+                18
+            ],
+            [
+                28,
+                30
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "76": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+        ],
+        "Edge_differences": [
+            [
+                0,
+                7
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                11,
+                9
+            ],
+            [
+                14,
+                0
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "77": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+        ],
+        "Edge_differences": [
+            [
+                9,
+                10
+            ],
+            [
+                23,
+                22
+            ],
+            [
+                10,
+                11
+            ],
+            [
+                7,
+                15
+            ],
+            [
+                25,
+                26
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "78": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "Edge_differences": [
+            [
+                7,
+                9
+            ],
+            [
+                7,
+                10
+            ],
+            [
+                5,
+                4
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                5,
+                7
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "79": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "a",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "Edge_differences": [
+            [
+                4,
+                0
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                0,
+                6
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "80": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+        ],
+        "Edge_differences": [
+            [
+                9,
+                10
+            ],
+            [
+                13,
+                9
+            ],
+            [
+                13,
+                12
+            ],
+            [
+                10,
+                9
+            ],
+            [
+                5,
+                4
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "81": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+        ],
+        "Edge_differences": [
+            [
+                11,
+                12
+            ],
+            [
+                13,
+                9
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                9,
+                8
+            ],
+            [
+                12,
+                13
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "82": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "Edge_differences": [
+            [
+                2,
+                3
+            ],
+            [
+                6,
+                7
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                6,
+                4
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "83": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+        ],
+        "Edge_differences": [
+            [
+                5,
+                10
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                9,
+                12
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                9,
+                4
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "84": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "a",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "Edge_differences": [
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "85": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+        ],
+        "Edge_differences": [
+            [
+                28,
+                36
+            ],
+            [
+                36,
+                28
+            ],
+            [
+                30,
+                31
+            ],
+            [
+                36,
+                37
+            ],
+            [
+                20,
+                15
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "86": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+        ],
+        "Edge_differences": [
+            [
+                13,
+                8
+            ],
+            [
+                21,
+                15
+            ],
+            [
+                10,
+                9
+            ],
+            [
+                8,
+                7
+            ],
+            [
+                12,
+                11
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "87": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "a",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "Edge_differences": [
+            [
+                2,
+                4
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                6,
+                3
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "88": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+        ],
+        "Edge_differences": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                19,
+                9
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "89": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+        ],
+        "Edge_differences": [
+            [
+                9,
+                10
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                11,
+                10
+            ],
+            [
+                13,
+                12
+            ],
+            [
+                10,
+                9
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "90": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+        ],
+        "Edge_differences": [
+            [
+                8,
+                9
+            ],
+            [
+                9,
+                8
+            ],
+            [
+                5,
+                6
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "91": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "a",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+        ],
+        "Edge_differences": [
+            [
+                9,
+                10
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "92": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "a",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "Edge_differences": [
+            [
+                9,
+                8
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                5,
+                4
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "93": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+        ],
+        "Edge_differences": [
+            [
+                10,
+                15
+            ],
+            [
+                10,
+                5
+            ],
+            [
+                5,
+                10
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                3,
+                5
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "94": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "a",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "Edge_differences": [
+            [
+                0,
+                1
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                8,
+                6
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                5,
+                7
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "95": {
+        "Factual_Target_Graph_Class": "a",
+        "CounterFactual_Target_Graph_Class": "i",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+        ],
+        "Edge_differences": [
+            [
+                11,
+                12
+            ],
+            [
+                14,
+                13
+            ],
+            [
+                8,
+                9
+            ],
+            [
+                12,
+                11
+            ],
+            [
+                11,
+                9
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    },
+    "96": {
+        "Factual_Target_Graph_Class": "i",
+        "CounterFactual_Target_Graph_Class": "a",
+        "Node_Differences": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+        ],
+        "Edge_differences": [
+            [
+                2,
+                3
+            ],
+            [
+                9,
+                0
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                0,
+                8
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "Natural_Language_Explanation": null
+    }
+}

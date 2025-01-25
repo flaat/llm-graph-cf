@@ -36,9 +36,41 @@ Usage in Machine Learning:
 """
 
 
+aids_dataset_description = """ The AIDS dataset is a graph classification benchmark widely used to evaluate graph neural networks (GNNs) in tasks related to molecular property prediction. It provides a structured representation of molecular compounds, where each molecule is encoded as a graph. In these graphs, nodes represent atoms, edges represent chemical bonds, and each graph corresponds to a molecule labeled as either active (a) or inactive (i) against HIV.
 
-def get_system_prompt(perturbation_type):
-  return "You are a language model that generates responses in a coherent and well-structured discourse style. "\
+Node Features and Labels
+Nodes in the dataset correspond to individual atoms in the molecule and carry both labels and attributes that describe their chemical properties. The node labels, derived from the atom's chemical symbol, are mapped to integer values. For instance, carbon (C) is labeled as 0, oxygen (O) as 1, nitrogen (N) as 2, and so on, covering a wide variety of atom types found in the dataset. In addition to their labels, nodes include attributes such as:
+
+chem: A feature that encodes specific chemical properties of the atom.
+charge: Represents the electrical charge of the atom.
+x, y: Spatial coordinates that define the atom's position within the molecular structure.
+This rich feature set allows for nuanced representations of molecular structures, making the dataset ideal for testing the ability of GNNs to capture both topological and chemical information.
+
+Edge Features and Labels
+Edges in the graph represent the chemical bonds between atoms. Each bond is labeled based on its valence, which indicates the type of bond: single, double, or triple. These bond types are mapped to integer values (0 for single bonds, 1 for double bonds, and 2 for triple bonds). This encoding ensures that the dataset captures not only the connectivity of the molecules but also the nature of the relationships between atoms."""
+
+
+        
+def get_system_prompt(perturbation_type, task):
+  
+  
+  
+  
+    dict_node_classification = """ infos={Target_Node_ID:'', Factual_Target_Node_Neighbors: [], Factual_Target_Node_Features: [], Counterfactual_Target_Node_Neighbors: [],
+    Counterfactual_Target_Node_Features: [], Factual_Target_Node_Class: '', Counterfactual_Target_Node_class: '', Target_Node_Features_Changed_From_Factual_To_Counterfactual: [], Natural_Language_Explanation: ''}"""
+
+    dict_graph_classification = """ infos= {
+        "Factual_Target_Graph_Class": None  ,
+        "CounterFactual_Target_Graph_Class": None ,
+        "Node_Differences": [],
+        "Edge_Differences":  [] ,
+        "Natural_Language_Explanation": None
+    }"""
+          
+    dict_g = dict_node_classification if task == "node" else dict_graph_classification
+  
+  
+    return "You are a language model that generates responses in a coherent and well-structured discourse style. "\
       "Avoid using bullet points, lists, or numerical outlines. Provide your responses in complete sentences and paragraphs, "\
       "explaining concepts clearly and concisely in a continuous flow."\
       f"You must take a factual example , a graph, and its counterfactual example, another graph, generated via {perturbation_type} perturbation and you must explain the differences."\
@@ -46,4 +78,4 @@ def get_system_prompt(perturbation_type):
       "For example, consider a credit scoring model that denies a loan application. A counterfactual explanation might be: 'If your annual income had been $50,000 instead of $45,000, your loan would have been approved.' This helps the applicant understand what specific change could lead to a different decision."\
       "Counterfactual Explanations in Graphs: Graphs are data structures consisting of nodes (vertices) and edges that represent relationships between entities. Graphs are prevalent in various domains such as social networks, biological networks, and knowledge graphs. When machine learning models, particularly Graph Neural Networks (GNNs), are applied to graph data, interpreting their predictions becomes challenging due to the complexity of the graph structure."\
       "Counterfactual explanations in graphs aim to provide insights into how changes in the graph's structure or node features can alter the model's predictions. This involves identifying minimal modifications to the graph that would change the outcome for a specific node or the entire graph."\
-      "You MUST fill this dictionary: infos={Target_Node_ID:'', Factual_Target_Node_Neighbors: [], Factual_Target_Node_Features: [], Counterfactual_Target_Node_Neighbors: [], Counterfactual_Target_Node_Features: [], Factual_Target_Node_Class: '', Counterfactual_Target_Node_class: '', Target_Node_Features_Changed_From_Factual_To_Counterfactual: [], Natural_Language_Explanation: ''}"
+      f"You MUST fill this dictionary taking into account that Node_Differences must contain JUST the nodes' id where the change happen, the Edge_Differences must contain a list of tuple representing the nodes involved in the edges: {dict_g}"

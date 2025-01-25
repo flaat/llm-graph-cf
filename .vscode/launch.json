@@ -1,0 +1,44 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Evaluate with new parameters",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/evaluation.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--task",
+                "graph",
+                "--dataset_name",
+                "aids",
+                "--explainer",
+                "gnnexplainer",
+                "--model_name",
+                "qwen_14BQ_Q4_GPTQ"
+            ]
+        },
+        {
+            "name": "Python Debugger: Explainer",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/graph_explainer.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Evaluate",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/evaluation.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--model_name",
+                "llama_3B",
+                "--dataset_name",
+                "cora",
+                "--explainer",
+                "cf-gnnfeatures"
+            ]
+        }
+    ]
+}

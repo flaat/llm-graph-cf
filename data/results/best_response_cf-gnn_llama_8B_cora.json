@@ -1,0 +1,4 @@
+{
+    "11": "The target node 15 was classified as Reinforcement_Learning in the factual scenario but changed to Probabilistic_Methods in the counterfactual scenario. This change in classification can be attributed to the influence of its neighbors, particularly node 3, which is connected to both the factual and counterfactual versions of the target node. The features of node 3, such as \"anneal\" and \"cmo\", may have contributed to the shift in classification.Original target nodes features: ['control', 'switch', 'common', 'multiag', 'massiv', 'cmo', 'anneal', 'gateway', 'np', 'classic', 'oracl', 'unlabel', 'introduc', 'polari']",
+    "51": "Original target nodes features: ['coher', 'input', 'cross', 'np', 'preunif', 'induc']"
+}

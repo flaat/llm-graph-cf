@@ -1,0 +1,5 @@
+{
+    "51": "Original target nodes features: ['coher', 'input', 'cross', 'np', 'preunif', 'induc']",
+    "59": "The change in classification for node 12 from Probabilistic_Methods to Reinforcement_Learning can be attributed to the influence of its neighbor node 8, which is more closely related to reinforcement learning.Original target nodes features: ['model', 'evalu', 'genet', 'modul', 'shape', 'trace', 'fuzzi', 'ai', 'debug', 'session', 'best', 'superscalar', 'lambda', 'np', 'preunif', 'classic', 'disculin']",
+    "70": "The change in classification of node 3 from Reinforcement_Learning to Rule_Learning is likely due to a combination of factors, including the attributes of node 3 itself and the classifications of its neighboring nodes.Original target nodes features: ['mobil', 'autom', 'sequenti', 'segment', 'real', 'window', 'critic', 'normal', 'lock', 'potenti', 'hash', 'introspect', 'hpf', 'constant', 'abduct', 'achiev', 'tcl', 'reachabl', 'electr', 'deleg']"
+}
