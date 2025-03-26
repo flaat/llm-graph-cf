@@ -1,5 +1,3 @@
-# Natural Language Counterfactual Explanations for Graphs Using Large Language Models
-
 ## Overview
 
 This script is designed to generate explanations using a language model based on specified parameters and datasets. It allows users to customize various aspects of the explanation generation process through command-line arguments.
