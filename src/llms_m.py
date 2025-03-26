@@ -6,7 +6,7 @@ from vllm import LLM, SamplingParams
 from data.kb import cora_description, citeseer_description, get_system_prompt
 import random
 import numpy as np
-
+import time
 MODEL_MAPPING = {
     "phi_4B": "microsoft/Phi-3.5-mini-instruct",  # 128k
     "phi_7B": "microsoft/Phi-3-small-128k-instruct",  # 128k
@@ -32,10 +32,10 @@ MODEL_MAPPING = {
     
     "qwen_0.5B_Q4_GPTQ": "Qwen/Qwen2.5-0.5B-Instruct-GPTQ-Int4",  # 128k
     "qwen_1.5B_Q4_GPTQ": "Qwen/Qwen2.5-1.5B-Instruct-GPTQ-Int4",  # 128k
-    "qwen_3BQ_Q4_GPTQ": "Qwen/Qwen2.5-3B-Instruct-GPTQ-Int4",  # 128k
-    "qwen_7BQ_Q4_GPTQ": "Qwen/Qwen2.5-7B-Instruct-GPTQ-Int4",  # 128k
-    "qwen_14BQ_Q4_GPTQ": "Qwen/Qwen2.5-14B-Instruct-GPTQ-Int4",  # 128k
-    "qwen_32BQ_Q4_GPTQ": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",  # 128k
+    "qwen_3B_Q4_GPTQ": "Qwen/Qwen2.5-3B-Instruct-GPTQ-Int4",  # 128k
+    "qwen_7B_Q4_GPTQ": "Qwen/Qwen2.5-7B-Instruct-GPTQ-Int4",  # 128k
+    "qwen_14B_Q4_GPTQ": "Qwen/Qwen2.5-14B-Instruct-GPTQ-Int4",  # 128k
+    "qwen_32B_Q4_GPTQ": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",  # 128k
 }
 
 def set_full_reproducibility(seed=42):
@@ -97,7 +97,11 @@ def get_explanations_mistral_vllm(model_name, temperature, top_p, dataset, max_t
         
         try:
             with torch.no_grad():
+                start = time.time()
                 outputs = llm.generate([text], sampling_params=sampling_params)
+                end = time.time()
+                print(f"*************Time taken for generation: {end - start} mode: {model_name}*************")
+                break
         except RuntimeError as e:
             if "CUDA out of memory" in str(e):
                 print("CUDA OOM detected. Attempting to free up memory.")

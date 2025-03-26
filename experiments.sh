@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Additional parameters for the new script
-models=("mistral_7B" "llama_3B" "llama_8B" "smollm2_2B" "phi_4B" )
+models=("mistral_7B" "llama_3B" "llama_8B" "smollm2_2B" "phi_4B" "qwen_0.5B_Q4_GPTQ" "qwen_1.5B_Q4_GPTQ" "qwen_3B_Q4_GPTQ" "qwen_7B_Q4_GPTQ" "qwen_14B_Q4_GPTQ")
 explainers=("gnnexplainer")
-max_model_lens=(16000 16000 16000 8192 16000)
+max_model_lens=(8192 8192 8192 8192 8192 8192 8192 8192 8192 8192)
 
 # Loop through each model and explainer
 for i in "${!models[@]}"
