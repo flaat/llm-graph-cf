@@ -54,6 +54,13 @@ def main():
         default="16000",
         help='model len'
     )
+    
+    parser.add_argument(
+        '--prompt_type',
+        type=str,
+        default="standard",
+        help='model len'
+    )
     args = parser.parse_args()
 
     # Use the parsed arguments as needed
@@ -72,6 +79,7 @@ def main():
                     max_tokens=args.max_tokens,
                     repetition_penalty=args.repetition_penalty,
                     explainer=args.explainer,
+                    prompt_type=args.prompt_type,
                     max_model_len=args.max_model_len)
 
 if __name__ == "__main__":

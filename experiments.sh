@@ -12,7 +12,7 @@ do
   do
     echo "Running main.py with model=${models[$i]}, explainer=$explainer, max_model_len=${max_model_lens[$i]}"
     # Run the Python script with the current model, explainer, and max_model_len
-    python3 main.py --model_name "${models[$i]}" --dataset aids --explainer "$explainer" --max_model_len "${max_model_lens[$i]}" --max_tokens 4096
+    python3 main.py --model_name "${models[$i]}" --dataset aids --explainer "$explainer" --max_model_len "${max_model_lens[$i]}" --max_tokens 4096 --prompt_type="zero"
     wait
     # Wait for the Python script to finish before continuing to the next iteration
   done

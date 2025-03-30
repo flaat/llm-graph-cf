@@ -48,7 +48,7 @@ def set_full_reproducibility(seed=42):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
-def get_explanations_mistral_vllm(model_name, temperature, top_p, dataset, max_tokens, repetition_penalty, explainer, max_model_len: int =7000):
+def get_explanations_mistral_vllm(model_name, temperature, top_p, dataset, max_tokens, repetition_penalty, explainer, prompt_type:str, max_model_len: int =7000):
     set_full_reproducibility()
 
     perturbation_type: str = "node features" if explainer == "cf-gnnfeatures" else "adjacency matrix"
@@ -58,7 +58,7 @@ def get_explanations_mistral_vllm(model_name, temperature, top_p, dataset, max_t
     sampling_params = SamplingParams(temperature=temperature, top_p=top_p, repetition_penalty=repetition_penalty, max_tokens=max_tokens, top_k=10)
 
     # Input the model name or path. Can be GPTQ or AWQ models.
-    llm = LLM(model=model_name, gpu_memory_utilization=1.0, max_model_len=max_model_len, max_num_seqs=1)  # Reduced GPU utilization to avoid OOM
+    llm = LLM(model=model_name, gpu_memory_utilization=0.1, max_model_len=max_model_len, max_num_seqs=1)  # Reduced GPU utilization to avoid OOM
 
     data_path: str = f"data/{dataset}/{explainer}"
     extension: str = "json"
@@ -71,13 +71,29 @@ def get_explanations_mistral_vllm(model_name, temperature, top_p, dataset, max_t
         data2 = json.load(file2)
 
     responses = {}
-
+    prompt = ""
     for key, value in tqdm(data1.items()):
-        prompt = (
-            f"Given the factual graph: {data2[key]} and given the counterfactual example: {data1[key]} "
-            f"and given the knowledge base about the dataset: {dataset_description}, fill the dictionary!"
-            f"and provide an explanation about the change in classification for the target node, please evaluate also the influences of neighbors nodes."
-        )
+        
+        if prompt_type == "few":
+            from .prompts import FEW_SHOT_PROMPT
+            
+            prompt = FEW_SHOT_PROMPT.format(data2[key], data1[key], dataset_description)
+            
+        
+        elif prompt_type == "zero":
+            from .prompts import ZERO_SHOT_PROMPT
+            
+            prompt = ZERO_SHOT_PROMPT.format(data2[key], data1[key])
+            
+        
+        elif prompt_type == "standard":
+            from .prompts import STANDARD_PROMPT
+                 
+            prompt = STANDARD_PROMPT.format(data2[key], data1[key], dataset_description)
+    
+        else:
+            
+            raise ValueError("prompt_type values does not exist!")
 
         # Prepare the messages for the model
         messages = [
@@ -101,7 +117,7 @@ def get_explanations_mistral_vllm(model_name, temperature, top_p, dataset, max_t
                 outputs = llm.generate([text], sampling_params=sampling_params)
                 end = time.time()
                 print(f"*************Time taken for generation: {end - start} mode: {model_name}*************")
-                break
+
         except RuntimeError as e:
             if "CUDA out of memory" in str(e):
                 print("CUDA OOM detected. Attempting to free up memory.")
@@ -143,7 +159,7 @@ def get_explanations_mistral_vllm(model_name, temperature, top_p, dataset, max_t
         del outputs
 
     # Save the responses to a JSON file
-    output_file = f"data/results/{explainer}_{model_name.split('/')[1]}_{dataset}_Response.json"
+    output_file = f"data/results/{explainer}_{model_name.split('/')[1]}_{dataset}_{prompt_type}_Response.json"
     with open(output_file, 'w', encoding='utf-8') as output:
         json.dump(responses, output, indent=4)
 
